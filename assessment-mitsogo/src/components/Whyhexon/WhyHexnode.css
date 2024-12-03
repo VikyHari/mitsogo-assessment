@@ -1,0 +1,86 @@
+.mainWidhth{
+    width: 88%;
+}
+.col-lg-5{
+}
+.card{
+  border-radius: 15px !important;
+}
+.card-title{
+    gap: 10px;
+}
+.cardTitleText{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 350;
+}
+.line-wrapper .line-animation {
+    animation: dashAnimation 1s linear infinite;
+  }
+  
+  @keyframes dashAnimation {
+    to {
+      stroke-dashoffset: -100;
+    }
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    height: 315px !important;
+ }
+   
+  .hover-content {
+
+    display: none;
+    border-radius: 4px;
+    text-align: start;
+    font-size: 18px;
+    color: #DD0735;
+    font-weight: 400;
+
+  }
+  
+  .card:hover .hover-content {
+    display: block; 
+    animation: fadeIn 0.3s ease-in-out; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+  }
+}
+
+@media screen and (max-width:450px){
+  .col-lg-5{
+    height: 250px !important;
+  }
+  
+}
+@media only screen and (max-width: 1280px){
+  .animatedDiv{
+    visibility: hidden;
+  }
+  .card-text{
+    font-size: 15px;
+  }
+  .cardContainer{
+    justify-content: center !important;
+  }
+}

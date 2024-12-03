@@ -1,0 +1,149 @@
+.custom-container {
+  max-width: 280px;
+  margin: 0 auto;
+  position: relative;
+}
+.swiperContainer{
+  border:1px solid black;
+  max-width: 960px !important;
+}
+@media (min-width: 576px) {
+  .custom-container {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+    max-width: 780px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+    max-width: 960px !important;
+  }
+}
+
+
+
+
+.swiper-container {
+  width: 100%;
+  position: relative;
+}
+
+.testimonial-card {
+  max-width: 960px;
+  padding: 40px 20px 0px;
+}
+
+.card-body1 {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.testimonial-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.content-container {
+  max-width: 640px;
+}
+
+.innerContent-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.description_text {
+  margin-top: 40px;
+  font-size: 24px;
+  min-height: 135px;
+  text-align: start;
+  font-weight: 600;
+}
+
+.nameText {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.companyText {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.swiper-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 56px;
+  height: 56px;
+  background-color: #f7f7f7 !important;
+  color: black !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .swiper-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    max-width: 100%;
+    padding: 15px 10px;
+  }
+
+  .card-body1 {
+    flex-direction: column;
+  }
+
+  .testimonial-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .content-container {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .description_text {
+    font-size: 18px;
+    min-height: 100px;
+  }
+
+  .nameText {
+    font-size: 16px;
+  }
+
+  .companyText {
+    font-size: 12px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    font-size: 10px !important;
+  }
+}
