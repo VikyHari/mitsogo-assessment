@@ -248,7 +248,7 @@
   right: 20px;
   width: 50px;
   height: 50px;
-
+background-color: #2E72F6;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -256,22 +256,29 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
+  z-index: 1;
 }
 
 .message-icon:hover {
   transform: scale(1.1);
-  background-color: #AA232F;
+  /* background-color: #AA232F; */
 }
 
-.message-icon i {
+.message-icon svg {
   color: #fff;
-  font-size: 24px;
+  width: 26px;
+  height: 26px;
 }
 
 @media (max-width: 768px) {
   .message-icon {
     width: 40px;
     height: 40px;
+  }
+  .message-icon svg {
+    color: #fff;
+    width: 20px;
+    height: 20px;
   }
 
   .message-icon i {

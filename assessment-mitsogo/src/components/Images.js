@@ -1,4 +1,3 @@
-import { RiWalkFill } from 'react-icons/ri';
 
 export const images={
     BANNEROVERLAY: require('../assests/baner-overlay.png'),
@@ -30,6 +29,8 @@ export const images={
     GROUP1: require('../assests/group1-automotive.webp'),
     CHRIS: require('../assests/chris-robinson.webp'),
     DALIBOR: require('../assests/dalibor-kruljac.webp'),
+    JUSTIN: require('../assests/justin-modrak.webp'),
     LOGOWHITE: require('../assests/logo-white.png'),
-    LOGOBLACK: require('../assests/logo-black.webp')
+    LOGOBLACK: require('../assests/logo-black.webp'),
+
 }

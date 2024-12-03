@@ -29,6 +29,14 @@ const carouselItems = [
 const testimonials = [
   {
     id: 1,
+    alt: "Justin Modrak",
+    imageSrc: images.JUSTIN,
+    quote: "\"Hexnode is of great value. Works great with Android and iOS!\"",
+    name: "Justin Modrak",
+    company: "East Troy Community School District",
+  },
+  {
+    id: 2,
     alt: "Dalibor Kruljac",
     imageSrc: images.DALIBOR,
     quote: "\"Most complete MDM solution I found, and I tested many of them, including major names\"",
@@ -36,14 +44,14 @@ const testimonials = [
     company: "KAMELEYA LTD",
   },
   {
-    id: 2,
+    id: 3,
     alt: "Chris Robinson",
-    imageSrc: images.CHRIS, // Replace with actual image URL
+    imageSrc: images.CHRIS, 
     quote: "\"TIt seemed to be in-line with everything we were looking at.\'",
     name: "Chris Robinson",
     company: "Executive Account Manager, NCS",
   },
-  // Add more slide data as needed
+  
 ];
 
 
@@ -62,7 +70,7 @@ export default function Logocarousel() {
   };
   return (
     <div>
-      <section className='d-flex justify-content-center align-item-center' style={{ paddingTop: "80px", paddingBottom: '30px' }}>
+      <section id='Customers' className='d-flex justify-content-center align-item-center' style={{ paddingTop: "80px", paddingBottom: '30px' }}>
         <div className='mainWidth'>
           <div className='d-flex justify-content-center flex-column align-items-center'>
             <h2 className='headingText' style={{ paddingBottom: '20px' }}>What our customers say
@@ -105,7 +113,7 @@ export default function Logocarousel() {
                 </div>
               </div>
             </div>
-            <div className="swiper-buttons-container">
+            <div className="swiper-buttons-container ">
               <button
                 style={{ fontSize: '30px', fontWeight: '100' }}
                 onClick={prevSlide}

@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 import { Image } from 'react-bootstrap';
 import { images } from '../Images';
+import WhyHexnode from '../Whyhexon/WhyHexnode';
 
 function Navbar() {
   const navRef = useRef();
@@ -47,21 +48,30 @@ function Navbar() {
         <div>
           <header className={scrolled ? 'scrolled' : ''}>
             <div className="mainWidth d-flex justify-content-between">
+              <a href='https://www.hexnode.com/'>
               <Image
                 style={{ height: '27px' }}
                 src={scrolled ? images.LOGOBLACK : images.LOGOWHITE}
                 alt="Logo"
               />
+              </a>
 
               <nav ref={navRef}>
                 <div className="responsive-navMainContainer">
                   <div className="responive-navContainer">
-                    <a href="#">Why Hexonade</a>
+                    <a href={WhyHexnode}>Why Hexonade</a>
                     <a href="#">Features</a>
                     <a href="#">Platforms</a>
                     <a href="#">Customers</a>
                   </div>
+                  <div className='d-flex justify-content-center flex-column align-items-center'>
+                    <div className="button mt-3" style={{ visibility: "visible", width:'80%', textAlign:'center',padding:'10px'  }}>
+                      <a style={{fontSize:'0.5rem !important'}} href="#">14 days free trial</a>
+                    </div>
+                    <div className='mt-4'>Login</div>
+                  </div>
                 </div>
+
                 <button className="nav-btn nav-close-btn" onClick={showNavBar}>
                   <FaTimes />
                 </button>
@@ -75,9 +85,9 @@ function Navbar() {
           {buttonOverlay && (
             <header className={scrolled ? 'scrolled' : ''}>
               <div className='d-flex justify-content-end'>
-              <div className="button" style={{visibility:"visible"}}>
-                <a href="#">14 days free trial</a>
-              </div>
+                <div className="button" style={{ visibility: "visible" }}>
+                  <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/">14 days free trial</a>
+                </div>
               </div>
             </header>
           )}
@@ -100,10 +110,10 @@ function Navbar() {
               <nav ref={navRef}>
                 <div className='responsive-navMainContainer'>
                   <div className='responive-navContainer' >
-                    <a href="#">Why Hexonade</a>
-                    <a href="#">Features</a>
-                    <a href="#">Platforms</a>
-                    <a href="#">Customers</a>
+                    <a href="#whyhexonade">Why Hexonade</a>
+                    <a href="#Features">Features</a>
+                    <a href="#Platforms">Platforms</a>
+                    <a href="#Customers">Customers</a>
                   </div>
 
                 </div>
@@ -112,11 +122,11 @@ function Navbar() {
                 </button>
               </nav>
               <div className={scrolled ? 'nav-btn2' : 'nav-btn1'}>
-                <a href="#">14 days free trial</a>
+                <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/">14 days free trial</a>
               </div>
 
               <div className="button">
-                <a href="#">14 days free trial</a>
+                <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/">14 days free trial</a>
               </div>
               <button className="nav-btn" onClick={showNavBar}>
                 <FaBars />

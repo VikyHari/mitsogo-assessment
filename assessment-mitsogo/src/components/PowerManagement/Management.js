@@ -4,7 +4,7 @@ import "./Management.css"
 
 function Management() {
     return (
-        <section className='d-flex justify-content-center align-items-center' style={{ paddingBottom: '80px', paddingTop: '80px' }}>
+        <section id='Features' className='d-flex justify-content-center align-items-center' style={{ paddingBottom: '80px', paddingTop: '80px' }}>
             <div className='mainWidth'>
                 <div className='d-flex justify-content-center'>
                     <h2 className='headingText'>Powerful endpoint management, built for the devices you choose</h2>

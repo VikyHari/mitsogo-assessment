@@ -49,7 +49,7 @@ function Multiplatform() {
   };
 
   return (
-    <section className="d-flex justify-content-center align-items-center " style={{ paddingTop: '80px', paddingBottom: '80px', background: '#F7F7F7' }}>
+    <section id='Platforms' className="d-flex justify-content-center align-items-center " style={{ paddingTop: '80px', paddingBottom: '80px', background: '#F7F7F7' }}>
       <div className="mainWidth">
         <div className="d-flex justify-content-center flex-column align-items-center">
           <h2 style={{ paddingBottom: '20px' }} className="headingText">Multi-platform Endpoint Management</h2>
@@ -161,7 +161,7 @@ function Multiplatform() {
                       <h3 style={{ borderBottom: "0", marginLeft: "0" }}>{item.title}</h3>
                       <div className='p-2'>
                         <p>{item.content}</p>
-                        <p className='link'> Try Hexnode on your endpoint</p>
+                        <p className='link'><a href='https://www.hexnode.com/mobile-device-management/cloud/signup/'>Try Hexnode on your endpoint</a> </p>
                       </div>
                     </div>
                   ) : (

@@ -61,7 +61,7 @@ const gridItems = [
 
 const WhyHexnode = () => {
   return (
-    <section className='d-flex justify-content-center align-items-center ' style={{ background: "#F7F7F7", paddingTop: "80px", paddingBottom: '80px' }}>
+    <section id='whyhexonade' className='d-flex justify-content-center align-items-center ' style={{ background: "#F7F7F7", paddingTop: "80px", paddingBottom: '80px' }}>
       <div className='mainWidth'>
         <h2 className='p-2 mb-4' style={{ textAlign: "center", fontSize: "40px", fontWeight: "700" }}>Why Hexnode?</h2>
         <div className='row justify-content-between' style={{position:'relative',zIndex:'1'}}>
@@ -108,7 +108,7 @@ const WhyHexnode = () => {
                     <div className='cardTitleText'>Adapt to the new normal</div>
                   </div>
                   <p class="card-text">Hybrid, remote or onsite, you can trust Hexnode UEM to deliver. Create policies that cater to your organization’s protocols. Whether it be BYOD, COPE, or platform limited, Hexnode can manage it all.</p>
-                  <div class="hover-content">Try hexonode on your endpoint</div>
+                  <div class="hover-content"><a href='https://www.hexnode.com/mobile-device-management/cloud/signup/'>Try Hexnode on your endpoint</a></div>
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ const WhyHexnode = () => {
                     <div className='cardTitleText'>Zero compromise security</div>
                   </div>
                   <p class="card-text">Enable full-fledged device encryption, data loss prevention, and all-rounded device security with Hexnode UEM. Be at the bleeding edge of device security without any compromises.</p>
-                  <div class="hover-content">Try hexonode on your endpoint</div>
+                  <div class="hover-content"><a href='https://www.hexnode.com/mobile-device-management/cloud/signup/'>Try Hexnode on your endpoint</a></div>
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ const WhyHexnode = () => {
                     <div className='cardTitleText'>Get more done with automation</div>
                   </div>
                   <p class="card-text">Hexnode UEM automation features help free up IT’s time spent on mundane and repetitive tasks. Do hours’ worth of work in a few minutes.</p>
-                  <div class="hover-content">Try hexonode on your endpoint</div>
+                  <div class="hover-content"><a href='https://www.hexnode.com/mobile-device-management/cloud/signup/'>Try Hexnode on your endpoint</a></div>
                 </div>
               </div>
             </div>
@@ -281,11 +281,12 @@ const WhyHexnode = () => {
                     <div className='cardTitleText'>Unified Policy Management</div>
                   </div>
                   <p class="card-text">Create a single policy through Hexnode and apply it on all the devices in your organization. Any platform or form factor, achive single pane of glass management with Hexnode.</p>
-                  <div class="hover-content">Try hexonode on your endpoint</div>
+                  <div class="hover-content"><a href='https://www.hexnode.com/mobile-device-management/cloud/signup/'>Try Hexnode on your endpoint</a></div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="hover-content1"><a href='https://www.hexnode.com/mobile-device-management/cloud/signup/'>Try Hexnode on your endpoint</a></div>
           <div
           className="d-flex justify-content-center position-absolute animatedDiv"
           style={{
