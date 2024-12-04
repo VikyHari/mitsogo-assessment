@@ -203,7 +203,16 @@
     margin-bottom: 20px; 
   }
 }
+@media screen and (max-width:450px){
+  .blogInsideContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100% !important;
+  }
 
+}
 @media screen and (max-width:747px) {
   .blogSection{
     display: flex;
@@ -217,7 +226,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 340px !important;
+    /* width: 340px !important; */
   }
   .blogImgContainer{
     justify-content: center;

@@ -120,6 +120,13 @@
   }
   
 }
+@media (max-width: 800px){
+  .testimonial-card {
+    max-width: 100% !important;
+  }
+
+
+}
 @media (max-width: 1250px) {
   .swiper-container {
     flex-direction: column;

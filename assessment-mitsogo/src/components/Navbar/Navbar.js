@@ -83,8 +83,8 @@ function Navbar() {
             </div>
           </header>
           {buttonOverlay && (
-            <header className={scrolled ? 'scrolled' : ''}>
-              <div className='d-flex justify-content-end'>
+            <header className={scrolled ? 'scrolled d-flex justify-content-end' : ''}>
+              <div className=''>
                 <div className="button" style={{ visibility: "visible" }}>
                   <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/">14 days free trial</a>
                 </div>
